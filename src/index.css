@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-black; /* Substitua 'bg-blue-500' pela classe de cor desejada */
+    @apply font-sans font-semibold
+  }

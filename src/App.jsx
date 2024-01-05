@@ -60,7 +60,7 @@ export default function App() {
                 <GrNext size={15} />
               </div>
             </div>
-            <div className="flex flex-row">
+            <div className="flex flex-row gap-2">
               <div className="p-2 rounded-full bg-zinc-900">
                 <FaRegBell size={15} />
               </div>
@@ -86,7 +86,7 @@ export default function App() {
             Feito para Matheus Mota
           </hi>
           <div className="grid grid-flow-col-7 gap-3">
-            <div className="p-2">
+            <div className="p-2 ">
               <img
                 className="w-20 h-20 rounded-sm mr-3"
                 src="src\assets\img\BK-Icarus.jpeg"

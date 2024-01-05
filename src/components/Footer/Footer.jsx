@@ -25,8 +25,8 @@ function Footer() {
         </div>
       </div>
       <div>
-        <div className="flex flex-col  items-center">
-          <div className="flex flex-row gap-3 items-center ">
+        <div className="flex flex-col items-center">
+          <div className="flex flex-row gap-3 mb-2 items-center ">
             <IoShuffleOutline color="rgb(161 161 170)" size={20} />
             <MdSkipPrevious color="white" size={20} />
             <FaCirclePlay color="white" size={28} />
@@ -45,11 +45,21 @@ function Footer() {
       </div>
 
       <div className="flex flex-row gap-3 pr-3">
-        <CgPlayButtonR color="rgb(161 161 170)" size={15} />
-        <TbMicrophone2 color="rgb(161 161 170)" size={15} />
-        <MdOutlineViewAgenda color="rgb(161 161 170)" size={15} />
-        <TbDevices2 color="rgb(161 161 170)" size={15} />
-        <LuVolume2 color="rgb(161 161 170)" size={15} />
+        <button>
+          <CgPlayButtonR color="rgb(161 161 170)" size={15} />
+        </button>
+        <button>
+          <TbMicrophone2 color="rgb(161 161 170)" size={15} />
+        </button>
+        <button>
+          <MdOutlineViewAgenda color="rgb(161 161 170)" size={15} />
+        </button>
+        <button>
+          <TbDevices2 color="rgb(161 161 170)" size={15} />
+        </button>
+        <button>
+          <LuVolume2 color="rgb(161 161 170)" size={15} />
+        </button>
         <div className="flex items-center justify-center">
             <div className="w-20 h-1  rounded-full bg-slate-400/40">
               <div className="w-16 bg-white h-1 rounded-full"></div>

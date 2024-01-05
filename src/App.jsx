@@ -60,7 +60,7 @@ export default function App() {
                 <GrNext size={15} />
               </div>
             </div>
-            <div className="flex flex-row gap-2">
+            <div className="flex flex-row gap-">
               <div className="p-2 rounded-full bg-zinc-900">
                 <FaRegBell size={15} />
               </div>
@@ -85,14 +85,72 @@ export default function App() {
           <hi className="text-xl font-bold mb-4 text-zinc-100">
             Feito para Matheus Mota
           </hi>
-          <div className="grid grid-flow-col-7 gap-3">
-            <div className="p-2 ">
+          <div className="grid grid-cols-7 gap-3">
+            <a href="#" className="items-center justify-center p-4 rounded-md bg-zinc-600/10">
               <img
-                className="w-20 h-20 rounded-sm mr-3"
+                className="w-32 h-32 rounded-sm mb-3"
                 src="src\assets\img\BK-Icarus.jpeg"
                 alt="BK-icarus"
               />
-            </div>
+              <strong className="text-sm font-bold">ICARUS</strong>
+              <div className="text-xs text-zinc-400 mt-1">BK,Nansy Silvvz, Gigantes</div>
+            </a>
+            <a href="#" className="items-center justify-center p-4 rounded-md bg-zinc-600/10">
+              <img
+                className="w-32 h-32 rounded-sm mb-3"
+                src="src\assets\img\BK-Icarus.jpeg"
+                alt="BK-icarus"
+              />
+              <strong className="text-sm font-bold">ICARUS</strong>
+              <div className="text-xs text-zinc-400 mt-1">BK,Nansy Silvvz, Gigantes</div>
+            </a>
+            <a href="#" className="items-center justify-center p-4 rounded-md bg-zinc-600/10">
+              <img
+                className="w-32 h-32 rounded-sm mb-3"
+                src="src\assets\img\BK-Icarus.jpeg"
+                alt="BK-icarus"
+              />
+              <strong className="text-sm font-bold">ICARUS</strong>
+              <div className="text-xs text-zinc-400 mt-1">BK,Nansy Silvvz, Gigantes</div>
+            </a>
+            <a href="#" className="items-center justify-center p-4 rounded-md bg-zinc-600/10">
+              <img
+                className="w-32 h-32 rounded-sm mb-3"
+                src="src\assets\img\BK-Icarus.jpeg"
+                alt="BK-icarus"
+              />
+              <strong className="text-sm font-bold">ICARUS</strong>
+              <div className="text-xs text-zinc-400 mt-1">BK,Nansy Silvvz, Gigantes</div>
+            </a>
+            <a href="#" className="items-center justify-center p-4 rounded-md bg-zinc-600/10">
+              <img
+                className="w-32 h-32 rounded-sm mb-3"
+                src="src\assets\img\BK-Icarus.jpeg"
+                alt="BK-icarus"
+              />
+              <strong className="text-sm font-bold">ICARUS</strong>
+              <div className="text-xs text-zinc-400 mt-1">BK,Nansy Silvvz, Gigantes</div>
+            </a>
+            <a href="#" className="items-center justify-center p-4 rounded-md bg-zinc-600/10">
+              <img
+                className="w-32 h-32 rounded-sm mb-3"
+                src="src\assets\img\BK-Icarus.jpeg"
+                alt="BK-icarus"
+              />
+              <strong className="text-sm font-bold">ICARUS</strong>
+              <div className="text-xs text-zinc-400 mt-1">BK,Nansy Silvvz, Gigantes</div>
+            </a>
+            <a href="#" className="items-center justify-center p-4 rounded-md bg-zinc-600/10">
+              <img
+                className="w-32 h-32 rounded-sm mb-3"
+                src="src\assets\img\BK-Icarus.jpeg"
+                alt="BK-icarus"
+              />
+              <strong className="text-sm font-bold">ICARUS</strong>
+              <div className="text-xs text-zinc-400 mt-1">BK,Nansy Silvvz, Gigantes</div>
+            </a>
+
+         
           </div>
         </main>
       </div>
